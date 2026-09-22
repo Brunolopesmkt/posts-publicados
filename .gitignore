@@ -1,2 +1,9 @@
-.netlify/
-.DS_Store
+# Lista branca: só entram os finais de cada post. Tudo o resto é ignorado por defeito.
+*
+!.gitignore
+!.nojekyll
+!README.md
+!index.html
+!*/
+!*/slide-*.png
+!*/carrossel.pdf
